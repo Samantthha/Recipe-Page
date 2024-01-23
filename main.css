@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --PrimaryNutmeg: hsl(14, 45%, 36%);
+  --PrimaryDarkRaspberry: hsl(332, 51%, 32%);
+  --NeutralWhite: hsl(0, 0%, 100%);
+  --NeutralRoseWhite: hsl(330, 100%, 98%);
+  --NeutralEggshell: hsl(30, 54%, 90%);
+  --NeutralLightGrey: hsl(30, 18%, 87%);
+  --NeutralWengeBrown: hsl(30, 10%, 34%);
+  --NeutralDarkCharcoal: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: var(--NeutralEggshell);
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+  font-weight: 400;
+}
+
+.serif {
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+}
+.Parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.child {
+  border-radius: 20px;
+  background-color: var(--NeutralRoseWhite);
+  min-height: 400px;
+  width: 400px;
+}
