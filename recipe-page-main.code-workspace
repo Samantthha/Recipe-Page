@@ -1,0 +1,12 @@
+{
+  "folders": [
+    {
+      "name": "recipe-page-main",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "recipe-page-main",
+    "liveServer.settings.port": 5501
+  }
+}

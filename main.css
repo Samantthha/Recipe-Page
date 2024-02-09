@@ -18,6 +18,8 @@
 
 body {
   background-color: var(--NeutralEggshell);
+  font-weight: 400;
+  font-family: "Young Serif", serif;
 }
 
 .outfit {
@@ -33,12 +35,117 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .child {
   border-radius: 20px;
   background-color: var(--NeutralRoseWhite);
-  min-height: 400px;
-  width: 400px;
+  min-height: 800px;
+  width: 510px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.img {
+  background-image: url(assets/images/image-omelette.jpeg);
+  height: 220px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: 20px;
+}
+
+.recipe_contain h1 {
+  padding-bottom: 20px;
+  font-weight: 200;
+  padding-top: 20px;
+}
+
+.recipe_contain p {
+  font-size: 11px;
+  font-weight: 100;
+  color: var(--NeutralWengeBrown);
+  line-height: 1.7;
+}
+
+.prep {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  background-color: rgba(160, 32, 240, 0.03);
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.prep p {
+  color: var(--PrimaryDarkRaspberry);
+  padding-bottom: 10px;
+  font-size: 20px;
+}
+
+.prep ul li {
+  font-size: 12px;
+  line-height: 2.5;
+}
+.Ingredients {
+  padding-bottom: 20px;
+  border-bottom: 1px var(--NeutralLightGrey) solid;
+}
+.Ingredients p {
+  color: var(--PrimaryNutmeg);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.Ingredients li {
+  color: grey;
+  line-height: 2.1;
+  font-size: 14px;
+}
+
+.Ingredients ul {
+  padding-left: 20px;
+}
+.Instructions {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px var(--NeutralLightGrey) solid;
+}
+.Instructions p {
+  color: var(--PrimaryNutmeg);
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.Instructions li {
+  line-height: 2.1;
+  font-size: 13px;
+}
+
+.Instructions ol {
+  padding-left: 20px;
+}
+
+.heading {
+  color: var(--PrimaryNutmeg);
+  font-size: 20px;
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
+.p2 {
+  font-size: 12px;
+  padding-bottom: 15px;
+  color: gray;
+}
+
+.Nutrition_table div {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 15px;
+  border-bottom: 1px var(--NeutralLightGrey) solid;
+  padding-top: 7px;
+}
+.weight {
+  color: var(--PrimaryNutmeg);
 }
