@@ -149,3 +149,10 @@ body {
 .weight {
   color: var(--PrimaryNutmeg);
 }
+
+@media screen and (max-width: 500px) {
+  .img {
+    background-size: cover;
+    background-position: center center;
+  }
+}
